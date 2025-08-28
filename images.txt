@@ -1,5 +1,18 @@
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-#支持指定架构
+### 支持指定架构 --platform=linux/amd64 
+
+# nginx 工具镜像 版本号 1.20.1
 --platform=linux/amd64 nginx:1.20.1
+
+# mysql 数据库镜像 版本号 8.0.26
+--platform=linux/amd64 mysql:8.0.26
+
+# redis 非结构化数据库 版本号 4.0.11
+--platform=linux/amd64 redis:4.0.11
+
+# nacos 工具（服务注册、配置中心） 版本号 2.2.0
+--platform=linux/amd64 nacos:2.2.0
+
+# Java JDK 17 环境镜像
 --platform=linux/amd64 eclipse-temurin:17-jdk
