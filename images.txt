@@ -12,7 +12,7 @@
 --platform=linux/amd64 redis:4.0.11
 
 # nacos 工具（服务注册、配置中心） 版本号 2.2.0
---platform=linux/amd64 nacos-server:v2.5.1
+--platform=linux/amd64 nacos/nacos-server:v2.5.1
 
 # Java JDK 17 环境镜像
 --platform=linux/amd64 eclipse-temurin:17-jdk
