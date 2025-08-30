@@ -18,7 +18,7 @@
 #--platform=linux/amd64 eclipse-temurin:17-jdk
 
 # n8n 自动化工作流镜像 版本号 0.220.1
---platform=linux/amd64 docker.n8n.io/n8nio/n8n:0.220.1
+#--platform=linux/amd64 docker.n8n.io/n8nio/n8n:0.220.1
 
 #PGVector是一个高效的向量数据库插件 版本号 0.8.0
---platform=linux/amd64 pgvector/pgvector:0.8.0
+--platform=linux/amd64 pgvector/pgvector:0.8.0-pg17-trixie
