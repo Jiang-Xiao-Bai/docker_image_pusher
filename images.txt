@@ -12,7 +12,7 @@
 #--platform=linux/amd64 redis:4.0.11
 
 # mongo 数据库 版本号 8.0
---platform=linux/amd64 mongo:8.0
+#--platform=linux/amd64 mongo:8.0
 
 # nacos 工具（服务注册、配置中心） 版本号 v2.5.1
 #--platform=linux/amd64 nacos/nacos-server:v2.5.1
@@ -20,8 +20,8 @@
 # Java JDK 17 环境镜像
 #--platform=linux/amd64 eclipse-temurin:17-jdk
 
-# n8n 自动化工作流镜像 版本号 0.220.1
-#--platform=linux/amd64 docker.n8n.io/n8nio/n8n:0.220.1
+# n8n 自动化工作流镜像（可汉化） 版本号 1.101.2
+--platform=linux/amd64 n8nio/n8n:1.101.2
 
 #PGVector是一个高效的向量数据库插件 版本号 0.8.0
 #--platform=linux/amd64 pgvector/pgvector:0.8.0-pg17-trixie
