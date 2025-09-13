@@ -36,5 +36,5 @@
 
 # ChromaDB是专为存储和检索高维向量数据设计的开源向量数据库 版本号 1.0.22.dev16
 #--platform=linux/amd64 chromadb/chroma:1.0.22.dev16
---platform=linux/amd64 chromadb/chroma: 0.6.4.dev19
+--platform=linux/amd64 chromadb/chroma:0.6.4.dev19
 
