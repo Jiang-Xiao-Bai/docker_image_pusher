@@ -38,3 +38,6 @@
 #--platform=linux/amd64 chromadb/chroma:1.0.22.dev16
 --platform=linux/amd64 chromadb/chroma:0.6.4.dev19
 
+# JDK 17 环境的基础镜像
+--platform=linux/amd64 openjdk:17-slim
+
