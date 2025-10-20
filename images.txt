@@ -42,3 +42,6 @@
 # JDK 17 环境的基础镜像
 #--platform=linux/amd64 openjdk:17-slim
 
+# weaviate向量库 版本号 1.19.7
+--platform=linux/amd64 semitechnologies/weaviate:1.19.7
+
