@@ -48,3 +48,4 @@
 # node 基础镜像
 #--platform=linux/amd64 node:18-alpine
 #--platform=linux/amd64 node:23-alpine
+--platform=linux/amd64 node:23
