@@ -46,5 +46,5 @@
 #--platform=linux/amd64 semitechnologies/weaviate:1.19.7
 
 # node 基础镜像
---platform=linux/amd64 node:18-alpine
-
+#--platform=linux/amd64 node:18-alpine
+--platform=linux/amd64 node:23
