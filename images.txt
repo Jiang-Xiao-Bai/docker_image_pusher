@@ -4,11 +4,11 @@
 
 # nginx 工具镜像 版本号 1.20.1
 #--platform=linux/amd64 nginx:1.20.1
---platform=linux/arm64 nginx:1.20.1
+#--platform=linux/arm64 nginx:1.20.1
 
 # mysql 数据库镜像 版本号 8.0.26
 #--platform=linux/amd64 mysql:8.0.26
---platform=linux/arm64 mysql:8.0.26
+#--platform=linux/arm64 mysql:8.0.26
 
 # redis 非结构化数据库 版本号 4.0.11
 #--platform=linux/amd64 redis:4.0.11
