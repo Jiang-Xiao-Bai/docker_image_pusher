@@ -8,16 +8,16 @@
 
 # mysql 数据库镜像 版本号 8.0.26
 #--platform=linux/amd64 mysql:8.0.26
-#--platform=linux/arm64 mysql:8.0.26
+--platform=linux/arm64 mysql:8.0.26
 
 # redis 非结构化数据库 版本号 4.0.11
 #--platform=linux/amd64 redis:4.0.11
---platform=linux/arm64 redis:4.0.11
+#--platform=linux/arm64 redis:4.0.11
 
 # mongo 数据库 版本号 8.0
 #--platform=linux/amd64 mongo:8.0
 #--platform=linux/amd64 mongo:4.4
---platform=linux/arm64 mongo:4.4
+#--platform=linux/arm64 mongo:4.4
 
 # nacos 工具（服务注册、配置中心） 版本号 v2.5.1
 #--platform=linux/amd64 nacos/nacos-server:v2.5.1
@@ -54,4 +54,4 @@
 #--platform=linux/amd64 node:23-alpine
 #--platform=linux/amd64 node:23
 #--platform=linux/amd64 node:24-slim
---platform=linux/arm64 node:24-slim
+#--platform=linux/arm64 node:24-slim
