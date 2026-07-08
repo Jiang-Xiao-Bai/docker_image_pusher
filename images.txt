@@ -8,7 +8,7 @@
 
 # mysql 数据库镜像 版本号 8.0.26
 #--platform=linux/amd64 mysql:8.0.26
---platform=linux/arm64v8 mysql:8.0.26
+--platform=linux/arm64 mysql:8.0.30
 
 # redis 非结构化数据库 版本号 4.0.11
 #--platform=linux/amd64 redis:4.0.11
