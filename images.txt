@@ -8,7 +8,7 @@
 
 # mysql 数据库镜像 版本号 8.0.26
 #--platform=linux/amd64 mysql:8.0.26
---platform=linux/arm64 mysql:8.0.30
+#--platform=linux/arm64 mysql:8.0.30
 
 # redis 非结构化数据库 版本号 4.0.11
 #--platform=linux/amd64 redis:4.0.11
@@ -55,3 +55,10 @@
 #--platform=linux/amd64 node:23
 #--platform=linux/amd64 node:24-slim
 #--platform=linux/arm64 node:24-slim
+
+# aionui amd64 版本镜像，包含 codex、claude code、dsh、hermes 等 Agent镜像
+--platform=linux/amd64 aionui:latest
+--platform=linux/amd64 codex:latest
+--platform=linux/amd64 claude-code:latest
+--platform=linux/amd64 deepseek-reasonix:latest
+--platform=linux/amd64 hermes-agent:latest
