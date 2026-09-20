@@ -55,10 +55,3 @@
 #--platform=linux/amd64 node:23
 #--platform=linux/amd64 node:24-slim
 #--platform=linux/arm64 node:24-slim
-
-# aionui amd64 版本镜像，包含 codex、claude code、dsh、hermes 等 Agent镜像
---platform=linux/amd64 aionui:latest
---platform=linux/amd64 codex:latest
---platform=linux/amd64 claude-code:latest
---platform=linux/amd64 deepseek-reasonix:latest
---platform=linux/amd64 hermes-agent:latest
