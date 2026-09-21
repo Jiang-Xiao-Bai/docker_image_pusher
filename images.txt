@@ -53,5 +53,5 @@
 #--platform=linux/amd64 node:18-alpine
 #--platform=linux/amd64 node:23-alpine
 #--platform=linux/amd64 node:23
-#--platform=linux/amd64 node:24-slim
-#--platform=linux/arm64 node:24-slim
+--platform=linux/amd64 node:24-slim
+--platform=linux/arm64 node:24-slim
